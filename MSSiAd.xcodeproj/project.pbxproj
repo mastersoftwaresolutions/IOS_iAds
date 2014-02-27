@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E33523A218B5FB9B0027C6CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E33523A118B5FB9B0027C6CF /* Foundation.framework */; };
+		E33523A418B5FB9B0027C6CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E33523A318B5FB9B0027C6CF /* CoreGraphics.framework */; };
+		E33523A618B5FB9B0027C6CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E33523A518B5FB9B0027C6CF /* UIKit.framework */; };
+		E33523AC18B5FB9B0027C6CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E33523AA18B5FB9B0027C6CF /* InfoPlist.strings */; };
+		E33523AE18B5FB9B0027C6CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E33523AD18B5FB9B0027C6CF /* main.m */; };
+		E33523B218B5FB9B0027C6CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E33523B118B5FB9B0027C6CF /* AppDelegate.m */; };
+		E33523B418B5FB9B0027C6CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E33523B318B5FB9B0027C6CF /* Images.xcassets */; };
+		E33523BB18B5FB9B0027C6CF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E33523BA18B5FB9B0027C6CF /* XCTest.framework */; };
+		E33523BC18B5FB9B0027C6CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E33523A118B5FB9B0027C6CF /* Foundation.framework */; };
+		E33523BD18B5FB9B0027C6CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E33523A518B5FB9B0027C6CF /* UIKit.framework */; };
+		E33523C518B5FB9B0027C6CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E33523C318B5FB9B0027C6CF /* InfoPlist.strings */; };
+		E33523C718B5FB9B0027C6CF /* MSSiAdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E33523C618B5FB9B0027C6CF /* MSSiAdTests.m */; };
+		E33523D118B5FBBA0027C6CF /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E33523D018B5FBBA0027C6CF /* iAd.framework */; };
+		E33523D518B5FBFE0027C6CF /* iAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E33523D318B5FBFE0027C6CF /* iAdViewController.m */; };
+		E33523D618B5FBFE0027C6CF /* iAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E33523D418B5FBFE0027C6CF /* iAdViewController.xib */; };
+		E33523DC18B5FC1B0027C6CF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E33523D718B5FC1B0027C6CF /* Default-568h@2x.png */; };
+		E33523DD18B5FC1B0027C6CF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E33523D818B5FC1B0027C6CF /* Default.png */; };
+		E33523DE18B5FC1B0027C6CF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E33523D918B5FC1B0027C6CF /* Default@2x.png */; };
+		E33523DF18B5FC1B0027C6CF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E33523DA18B5FC1B0027C6CF /* icon.png */; };
+		E33523E018B5FC1B0027C6CF /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E33523DB18B5FC1B0027C6CF /* icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E33523BE18B5FB9B0027C6CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E335239618B5FB9B0027C6CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E335239D18B5FB9B0027C6CF;
+			remoteInfo = MSSiAd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E335239E18B5FB9B0027C6CF /* MSSiAd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSSiAd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E33523A118B5FB9B0027C6CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E33523A318B5FB9B0027C6CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E33523A518B5FB9B0027C6CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E33523A918B5FB9B0027C6CF /* MSSiAd-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MSSiAd-Info.plist"; sourceTree = "<group>"; };
+		E33523AB18B5FB9B0027C6CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E33523AD18B5FB9B0027C6CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E33523AF18B5FB9B0027C6CF /* MSSiAd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MSSiAd-Prefix.pch"; sourceTree = "<group>"; };
+		E33523B018B5FB9B0027C6CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E33523B118B5FB9B0027C6CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E33523B318B5FB9B0027C6CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E33523B918B5FB9B0027C6CF /* MSSiAdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSSiAdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E33523BA18B5FB9B0027C6CF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E33523C218B5FB9B0027C6CF /* MSSiAdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MSSiAdTests-Info.plist"; sourceTree = "<group>"; };
+		E33523C418B5FB9B0027C6CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E33523C618B5FB9B0027C6CF /* MSSiAdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSSiAdTests.m; sourceTree = "<group>"; };
+		E33523D018B5FBBA0027C6CF /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		E33523D218B5FBFE0027C6CF /* iAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iAdViewController.h; sourceTree = "<group>"; };
+		E33523D318B5FBFE0027C6CF /* iAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iAdViewController.m; sourceTree = "<group>"; };
+		E33523D418B5FBFE0027C6CF /* iAdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iAdViewController.xib; sourceTree = "<group>"; };
+		E33523D718B5FC1B0027C6CF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E33523D818B5FC1B0027C6CF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E33523D918B5FC1B0027C6CF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E33523DA18B5FC1B0027C6CF /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		E33523DB18B5FC1B0027C6CF /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E335239B18B5FB9B0027C6CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33523D118B5FBBA0027C6CF /* iAd.framework in Frameworks */,
+				E33523A418B5FB9B0027C6CF /* CoreGraphics.framework in Frameworks */,
+				E33523A618B5FB9B0027C6CF /* UIKit.framework in Frameworks */,
+				E33523A218B5FB9B0027C6CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33523B618B5FB9B0027C6CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33523BB18B5FB9B0027C6CF /* XCTest.framework in Frameworks */,
+				E33523BD18B5FB9B0027C6CF /* UIKit.framework in Frameworks */,
+				E33523BC18B5FB9B0027C6CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E326892718BE23B50008AC8B /* icons and flash images */ = {
+			isa = PBXGroup;
+			children = (
+				E33523D718B5FC1B0027C6CF /* Default-568h@2x.png */,
+				E33523D818B5FC1B0027C6CF /* Default.png */,
+				E33523D918B5FC1B0027C6CF /* Default@2x.png */,
+				E33523DA18B5FC1B0027C6CF /* icon.png */,
+				E33523DB18B5FC1B0027C6CF /* icon@2x.png */,
+			);
+			name = "icons and flash images";
+			sourceTree = "<group>";
+		};
+		E335239518B5FB9B0027C6CF = {
+			isa = PBXGroup;
+			children = (
+				E33523A718B5FB9B0027C6CF /* MSSiAd */,
+				E33523C018B5FB9B0027C6CF /* MSSiAdTests */,
+				E33523A018B5FB9B0027C6CF /* Frameworks */,
+				E335239F18B5FB9B0027C6CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E335239F18B5FB9B0027C6CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E335239E18B5FB9B0027C6CF /* MSSiAd.app */,
+				E33523B918B5FB9B0027C6CF /* MSSiAdTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E33523A018B5FB9B0027C6CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E33523D018B5FBBA0027C6CF /* iAd.framework */,
+				E33523A118B5FB9B0027C6CF /* Foundation.framework */,
+				E33523A318B5FB9B0027C6CF /* CoreGraphics.framework */,
+				E33523A518B5FB9B0027C6CF /* UIKit.framework */,
+				E33523BA18B5FB9B0027C6CF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E33523A718B5FB9B0027C6CF /* MSSiAd */ = {
+			isa = PBXGroup;
+			children = (
+				E326892718BE23B50008AC8B /* icons and flash images */,
+				E33523B018B5FB9B0027C6CF /* AppDelegate.h */,
+				E33523B118B5FB9B0027C6CF /* AppDelegate.m */,
+				E33523D218B5FBFE0027C6CF /* iAdViewController.h */,
+				E33523D318B5FBFE0027C6CF /* iAdViewController.m */,
+				E33523D418B5FBFE0027C6CF /* iAdViewController.xib */,
+				E33523B318B5FB9B0027C6CF /* Images.xcassets */,
+				E33523A818B5FB9B0027C6CF /* Supporting Files */,
+			);
+			path = MSSiAd;
+			sourceTree = "<group>";
+		};
+		E33523A818B5FB9B0027C6CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E33523A918B5FB9B0027C6CF /* MSSiAd-Info.plist */,
+				E33523AA18B5FB9B0027C6CF /* InfoPlist.strings */,
+				E33523AD18B5FB9B0027C6CF /* main.m */,
+				E33523AF18B5FB9B0027C6CF /* MSSiAd-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E33523C018B5FB9B0027C6CF /* MSSiAdTests */ = {
+			isa = PBXGroup;
+			children = (
+				E33523C618B5FB9B0027C6CF /* MSSiAdTests.m */,
+				E33523C118B5FB9B0027C6CF /* Supporting Files */,
+			);
+			path = MSSiAdTests;
+			sourceTree = "<group>";
+		};
+		E33523C118B5FB9B0027C6CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E33523C218B5FB9B0027C6CF /* MSSiAdTests-Info.plist */,
+				E33523C318B5FB9B0027C6CF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E335239D18B5FB9B0027C6CF /* MSSiAd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E33523CA18B5FB9B0027C6CF /* Build configuration list for PBXNativeTarget "MSSiAd" */;
+			buildPhases = (
+				E335239A18B5FB9B0027C6CF /* Sources */,
+				E335239B18B5FB9B0027C6CF /* Frameworks */,
+				E335239C18B5FB9B0027C6CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSSiAd;
+			productName = MSSiAd;
+			productReference = E335239E18B5FB9B0027C6CF /* MSSiAd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E33523B818B5FB9B0027C6CF /* MSSiAdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E33523CD18B5FB9B0027C6CF /* Build configuration list for PBXNativeTarget "MSSiAdTests" */;
+			buildPhases = (
+				E33523B518B5FB9B0027C6CF /* Sources */,
+				E33523B618B5FB9B0027C6CF /* Frameworks */,
+				E33523B718B5FB9B0027C6CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E33523BF18B5FB9B0027C6CF /* PBXTargetDependency */,
+			);
+			name = MSSiAdTests;
+			productName = MSSiAdTests;
+			productReference = E33523B918B5FB9B0027C6CF /* MSSiAdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E335239618B5FB9B0027C6CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = masterSoftwareSolutions;
+				TargetAttributes = {
+					E33523B818B5FB9B0027C6CF = {
+						TestTargetID = E335239D18B5FB9B0027C6CF;
+					};
+				};
+			};
+			buildConfigurationList = E335239918B5FB9B0027C6CF /* Build configuration list for PBXProject "MSSiAd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E335239518B5FB9B0027C6CF;
+			productRefGroup = E335239F18B5FB9B0027C6CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E335239D18B5FB9B0027C6CF /* MSSiAd */,
+				E33523B818B5FB9B0027C6CF /* MSSiAdTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E335239C18B5FB9B0027C6CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33523DE18B5FC1B0027C6CF /* Default@2x.png in Resources */,
+				E33523E018B5FC1B0027C6CF /* icon@2x.png in Resources */,
+				E33523DF18B5FC1B0027C6CF /* icon.png in Resources */,
+				E33523AC18B5FB9B0027C6CF /* InfoPlist.strings in Resources */,
+				E33523DC18B5FC1B0027C6CF /* Default-568h@2x.png in Resources */,
+				E33523D618B5FBFE0027C6CF /* iAdViewController.xib in Resources */,
+				E33523B418B5FB9B0027C6CF /* Images.xcassets in Resources */,
+				E33523DD18B5FC1B0027C6CF /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33523B718B5FB9B0027C6CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33523C518B5FB9B0027C6CF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E335239A18B5FB9B0027C6CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33523B218B5FB9B0027C6CF /* AppDelegate.m in Sources */,
+				E33523D518B5FBFE0027C6CF /* iAdViewController.m in Sources */,
+				E33523AE18B5FB9B0027C6CF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33523B518B5FB9B0027C6CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33523C718B5FB9B0027C6CF /* MSSiAdTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E33523BF18B5FB9B0027C6CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E335239D18B5FB9B0027C6CF /* MSSiAd */;
+			targetProxy = E33523BE18B5FB9B0027C6CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E33523AA18B5FB9B0027C6CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E33523AB18B5FB9B0027C6CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E33523C318B5FB9B0027C6CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E33523C418B5FB9B0027C6CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E33523C818B5FB9B0027C6CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E33523C918B5FB9B0027C6CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E33523CB18B5FB9B0027C6CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MSSiAd/MSSiAd-Prefix.pch";
+				INFOPLIST_FILE = "MSSiAd/MSSiAd-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E33523CC18B5FB9B0027C6CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MSSiAd/MSSiAd-Prefix.pch";
+				INFOPLIST_FILE = "MSSiAd/MSSiAd-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E33523CE18B5FB9B0027C6CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MSSiAd.app/MSSiAd";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MSSiAd/MSSiAd-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MSSiAdTests/MSSiAdTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E33523CF18B5FB9B0027C6CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MSSiAd.app/MSSiAd";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MSSiAd/MSSiAd-Prefix.pch";
+				INFOPLIST_FILE = "MSSiAdTests/MSSiAdTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E335239918B5FB9B0027C6CF /* Build configuration list for PBXProject "MSSiAd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E33523C818B5FB9B0027C6CF /* Debug */,
+				E33523C918B5FB9B0027C6CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E33523CA18B5FB9B0027C6CF /* Build configuration list for PBXNativeTarget "MSSiAd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E33523CB18B5FB9B0027C6CF /* Debug */,
+				E33523CC18B5FB9B0027C6CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E33523CD18B5FB9B0027C6CF /* Build configuration list for PBXNativeTarget "MSSiAdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E33523CE18B5FB9B0027C6CF /* Debug */,
+				E33523CF18B5FB9B0027C6CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E335239618B5FB9B0027C6CF /* Project object */;
+}
